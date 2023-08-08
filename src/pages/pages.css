@@ -1,0 +1,168 @@
+
+.container-hero {
+    width: 100%;
+    height: 53vh;
+}
+
+.images-hero {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.container-omOss {
+    width: 100%;
+    height: 55vh;
+    background-color: black;
+    color: white;
+}
+
+.hero-text {
+    text-align: center;
+}
+
+.hero-text h1 {
+    color: #fff;
+    font-size: 8em;
+    margin: 15% 0 0 0;
+}
+
+.hero-text p {
+    color: red;
+    font-size: 1.5em;
+}
+
+.omOss-box {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3em;
+}
+
+.container-omOss h1 {
+    margin-top: 1rem;
+    font-size: 3em;
+    text-align: center;
+}
+
+.omOss-bild {
+    width: 30em;
+    border-radius: 1rem;
+}
+
+
+.text-omOss {
+    width: 40%;
+    color: white;
+    font-weight: 400;
+    font-size: 1.5em;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2em;
+}
+
+.omOss-div p {
+    width: 45%;
+    font-size: 1.5em;
+}
+
+.tjänst-box {
+    width: 100%;
+    height: 25em;
+    background-color: white;
+}
+
+.tjänstText {
+    color: black;
+    margin-top: 1rem;
+    font-size: 3em;
+    text-align: center; 
+}
+
+.row-tjänst {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: auto;
+    margin-top: 2em;
+    flex-wrap: wrap;
+
+}
+
+.row-tjänst h1 {
+    max-width: inherit;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tjänst {
+    width: 25em;
+    height: 15em;
+}
+
+.images-kurs {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px; 
+    box-shadow: 6px 5px 6px 5px #ccc;  
+
+}
+
+.handledarkurs {
+    position: relative;
+    top: -1.2em;
+    left: 16px;
+    color: white;
+    font-weight: 3em;
+}
+
+.footer {
+    width: 100%;
+    height: 20em;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    gap: 10em;
+}
+
+.footer-kontakt {
+    margin-top: 3em;
+    color: #cbc9c9;
+    display: block;
+    font-weight: 400;
+    font-size: 1.1em;
+}
+
+.footer-kontakt h1 {
+    margin-bottom: 1em;
+    font-weight: 800px;
+    color: white;
+}
+
+
+@media only screen and (max-width: 1290px){
+    .container-hero {
+        width: 100%;
+        height: 48vh;
+    }
+
+    .container-omOss {
+        width: 100%;
+        height: 80vh;        
+        background-color: black;
+        color: white;
+    }
+    
+    
+}
